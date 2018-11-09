@@ -132,6 +132,7 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  s.frameworks = 'SystemConfiguration','CoreGraphics','Security','MobileCoreServices'
   s.dependency "AFNetworking", "~> 3.1.0"
 
 end
